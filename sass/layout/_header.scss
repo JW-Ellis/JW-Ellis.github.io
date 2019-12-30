@@ -1,0 +1,26 @@
+.header {
+    background-image: linear-gradient(to bottom right, #507787, #2e8ebb);
+    height: 38rem;
+    position: relative;
+    margin-bottom: -10rem; 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%); 
+
+    &__logo-box {
+        position: absolute; 
+        margin: auto; 
+        top: 4rem; 
+        left: 50%; 
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%); 
+    }
+
+    &__logo {
+        height: 19rem; 
+        filter: drop-shadow(3px 8px 5px $color-black);
+
+        &--animated {
+            animation: moveInBottom 1s ease-out .45s; 
+            animation-fill-mode: backwards; 
+        }
+    }
+}    

@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio homepage ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JW-Ellis/JW-Ellis.github.io.git"
+  },
+  "author": "Justin Ellis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JW-Ellis/JW-Ellis.github.io/issues"
+  },
+  "homepage": "https://github.com/JW-Ellis/JW-Ellis.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
