@@ -1,0 +1,15 @@
+.container {
+    
+    background: yellow;
+
+    &__project {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2px;
+        height: 10rem;
+        width: 75%;
+        background: blue;
+        
+    }
+}

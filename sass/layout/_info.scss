@@ -1,4 +1,22 @@
 .section-info {
     padding: 20rem 0;  
-    background-color: purple;   
+    background-color: $color-grey-light;   
+
+    h1 {
+        text-align: left;
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        font-family: $font-title; 
+    }
+
+    p {
+        text-align: justify;
+        font-size: 1.5rem;
+        font-family: $font-content;
+    }
 }
+
+.section-em {
+    color: #2e8ebb;
+}
+

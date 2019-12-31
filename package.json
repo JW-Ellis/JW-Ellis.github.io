@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JW-Ellis/JW-Ellis.github.io#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
     "node-sass": "^4.12.0"
   }
 }

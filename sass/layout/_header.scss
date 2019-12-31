@@ -1,6 +1,6 @@
 .header {
     background-image: linear-gradient(to bottom right, #507787, #2e8ebb);
-    height: 38rem;
+    height: 26rem;
     position: relative;
     margin-bottom: -10rem; 
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%); 
@@ -15,7 +15,7 @@
     }
 
     &__logo {
-        height: 19rem; 
+        height: 14rem; 
         filter: drop-shadow(3px 8px 5px $color-black);
 
         &--animated {
