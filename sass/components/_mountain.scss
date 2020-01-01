@@ -2,8 +2,9 @@
     position: relative;
     height: 40rem; 
     width: 100%;
-    background: rgb(238,238,238);
-    background: linear-gradient(180deg, rgba(238,238,238,0.0844712885154062) 0%, rgba(0,212,255,0.41780462184873945) 83%, rgba(74,178,232,0.36738445378151263) 100%); 
+    margin-bottom: -24rem;
+    //background: #f1f1f1;
+   // background: linear-gradient(180deg, rgba(238,238,238,0.0844712885154062) 0%, rgba(0,212,255,0.41780462184873945) 83%, rgba(74,178,232,0.36738445378151263) 100%); 
     clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%);
 
     &__bottom {
@@ -13,9 +14,6 @@
         background: black;
         clip-path: polygon(0 90%, 100% 65%, 100% 100%, 0 100%);
     }
-
-  
-
 
 
      &__1 {

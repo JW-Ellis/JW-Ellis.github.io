@@ -1,15 +1,30 @@
 .container {
     
-    background: yellow;
 
     &__project {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 2px;
-        height: 10rem;
+        border-radius: 4px;
+        height: 30rem;
         width: 75%;
-        background: blue;
+        filter: drop-shadow(3px 8px 5px $color-black);
+        background: $color-grey-light;
+        transition-duration: .15s;
+
+        &:hover {
+             transform: translate(.2rem, -.2rem);
+             
+             
+         }
         
     }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+    
+    
 }

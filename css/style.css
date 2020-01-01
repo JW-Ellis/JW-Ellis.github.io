@@ -42,46 +42,51 @@ html {
   font-size: 4rem; }
 
 .fa-html5 {
-  color: orange; }
+  color: #e34f26; }
 
 .fa-css3-alt {
-  color: plum; }
+  color: #379ad6; }
 
 .fa-sass {
-  color: yellow; }
+  color: #cf649a; }
 
 .fa-js {
-  color: blue; }
+  color: #f1e01c; }
 
 .fa-node {
-  color: chartreuse; }
+  color: #7fc728; }
 
 .fa-npm {
-  color: coral; }
+  color: #c23c3c; }
 
 .fa-git-alt {
-  color: floralwhite; }
+  color: #e94f32; }
 
 .fa-bootstrap {
-  color: fuchsia; }
+  color: #533b78; }
 
-.container {
-  background: yellow; }
-  .container__project {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 2px;
-    height: 10rem;
-    width: 75%;
-    background: blue; }
+.container__project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  height: 30rem;
+  width: 75%;
+  filter: drop-shadow(3px 8px 5px rgba(0, 0, 0, 0.377));
+  background: #f7f7f7;
+  transition-duration: .15s; }
+  .container__project:hover {
+    transform: translate(0.2rem, -0.2rem); }
+
+a {
+  text-decoration: none;
+  color: black; }
 
 .mountain {
   position: relative;
   height: 40rem;
   width: 100%;
-  background: #eeeeee;
-  background: linear-gradient(180deg, rgba(238, 238, 238, 0.0844713) 0%, rgba(0, 212, 255, 0.417805) 83%, rgba(74, 178, 232, 0.367384) 100%);
+  margin-bottom: -24rem;
   clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%); }
   .mountain__bottom {
     position: absolute;
@@ -153,7 +158,7 @@ html {
       animation-fill-mode: backwards; }
 
 .section-info {
-  padding: 20rem 0;
+  padding: 10rem 0;
   background-color: #f7f7f7; }
   .section-info h1 {
     text-align: left;
@@ -168,15 +173,51 @@ html {
 .section-em {
   color: #2e8ebb; }
 
+.section-tech {
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  filter: drop-shadow(3px 8px 5px rgba(0, 0, 0, 0.377));
+  width: 20rem; }
+  .section-tech h1 {
+    text-align: center; }
+
+.section-projects h1 {
+  text-align: center; }
+
+#tech {
+  position: relative;
+  left: 7rem;
+  margin-right: 1rem;
+  text-align: center; }
+  #tech p {
+    text-align: center; }
+
+.project__picture {
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  border-radius: 4px;
+  background-size: cover;
+  height: 10rem; }
+
+.project__picture--1 {
+  background-image: url("../img/setlist.png"); }
+
+.project__picture--2 {
+  background-image: url("../img/pathfinder.png"); }
+
+.project__description h2 {
+  text-align: center; }
+
+.project__description p {
+  text-align: center; }
+
 .footer {
   position: relative;
   height: 10rem;
   background: black; }
 
 .row {
-  width: 75rem;
-  margin: 0 auto;
-  background: pink; }
+  width: 65rem;
+  margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 4rem; }
     @media only screen and (max-width: 56.25em) {
