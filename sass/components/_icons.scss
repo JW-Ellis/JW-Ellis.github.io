@@ -2,6 +2,20 @@
     position: relative;
     display: inline-block;
 
+    &-1 {
+        &--animated {
+            animation: moveInBottom 1s ease-out .45s; 
+            animation-fill-mode: backwards; 
+        }
+    }
+
+    &-2 {
+        &--animated {
+            animation: moveInBottom 1s ease-out .45s; 
+            animation-fill-mode: backwards; 
+        }
+    }
+
 }
 
 .fab {

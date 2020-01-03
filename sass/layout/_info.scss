@@ -19,6 +19,8 @@
 
 .section {
 
+
+
     &-em{
         color: #2e8ebb;
     }
@@ -27,10 +29,16 @@
         //padding: 5rem;
         border-radius: 4px;
         background-color: $color-grey-light; 
-        filter: drop-shadow(3px 8px 5px $color-black);
+        //filter: drop-shadow(3px 8px 5px $color-black);
         width: 20rem;
         h1 {
             text-align: center;
+            letter-spacing: .3rem;
+            margin-bottom: 3rem;
+        }
+
+        p {
+            font-weight: bold;
         }
     }
 
@@ -38,7 +46,10 @@
 
         h1 {
             text-align: center;
+            letter-spacing: .3rem;
+            margin-bottom: 3rem;
         }
+
         
     }
     
@@ -77,11 +88,15 @@
 
     &__description{
         h2 {
+            color: $color-primary;
             text-align: center;
+            font-size: 2.5rem;
         }
 
         p {
-            text-align: center;
+            text-align: left;
+            font-size: 1.3rem;
+            padding: 1rem;
         }
     }
 }
