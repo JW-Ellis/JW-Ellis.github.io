@@ -4,7 +4,9 @@
   "description": "Portfolio homepage ",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss public/style.css -w", 
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,19 @@
   "homepage": "https://github.com/JW-Ellis/JW-Ellis.github.io#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
-    "node-sass": "^4.12.0"
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-wesbos": "0.0.19",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.3.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.16.4"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6"

@@ -13,24 +13,35 @@
         text-align: justify;
         font-size: 1.5rem;
         font-family: $font-content;
+        
     }
     
 }
 
+#projectAnchor {
+    p {
+        font-weight: bold;
+        color: $color-dark;
+
+        &:focus,
+        &:hover{
+        color: $color-primary;
+        
+    }
+    }
+}
+
 .section {
-
-
 
     &-em{
         color: #2e8ebb;
     }
 
     &-tech {
-        //padding: 5rem;
         border-radius: 4px;
         background-color: $color-grey-light; 
-        //filter: drop-shadow(3px 8px 5px $color-black);
         width: 20rem;
+        
         h1 {
             text-align: center;
             letter-spacing: .3rem;

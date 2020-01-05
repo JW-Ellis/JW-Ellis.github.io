@@ -71,6 +71,9 @@ html {
 .fa-bootstrap {
   color: #533b78; }
 
+.fa-github-square {
+  color: #f7f7f7; }
+
 .container__project {
   display: block;
   margin-left: auto;
@@ -176,6 +179,12 @@ a {
     font-size: 1.5rem;
     font-family: "Lato", sans-serif; }
 
+#projectAnchor p {
+  font-weight: bold;
+  color: #102b3f; }
+  #projectAnchor p:focus, #projectAnchor p:hover {
+    color: #2e8ebb; }
+
 .section-em {
   color: #2e8ebb; }
 
@@ -227,8 +236,27 @@ a {
 
 .footer {
   position: relative;
-  height: 10rem;
+  height: 14rem;
   background: black; }
+  .footer h2 {
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    padding: 1rem;
+    font-family: "Libre Baskerville", serif;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    text-align: center; }
+
+.contact {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  width: 10%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+  .contact-icon {
+    display: flex;
+    justify-content: space-around; }
 
 .row {
   width: 65rem;

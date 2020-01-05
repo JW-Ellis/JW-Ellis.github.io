@@ -1,5 +1,31 @@
 .footer {
     position: relative;
-    height: 10rem;
+    height: 14rem;
     background: black;
+
+    h2 {
+        font-size: 2rem;
+        letter-spacing: .2rem;
+        padding: 1rem;
+        font-family: $font-title;
+        text-transform: uppercase;
+        color: $color-grey-light;
+        text-align: center;
+    }
+}
+
+.contact {
+    position: absolute; 
+    margin: auto; 
+    left: 50%; 
+    width: 10%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+    &-icon {
+    display: flex;
+    justify-content: space-around;
+         
+    }
+    
 }
