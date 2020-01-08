@@ -47,6 +47,9 @@ html {
 .fab {
   font-size: 4rem; }
 
+.fas {
+  font-size: 4rem; }
+
 .fa-html5 {
   color: #e34f26; }
 
@@ -72,6 +75,9 @@ html {
   color: #533b78; }
 
 .fa-github-square {
+  color: #f7f7f7; }
+
+.fa-envelope-square {
   color: #f7f7f7; }
 
 .container__project {
