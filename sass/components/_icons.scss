@@ -1,63 +1,69 @@
-.icon{
-    position: relative;
-    display: inline-block;
+.icon {
+  position: relative;
+  display: inline-block;
 
-    &-1 {
-        &--animated {
-            animation: moveInBottom 1s ease-out .45s; 
-            animation-fill-mode: backwards; 
-        }
+  &-1 {
+    &--animated {
+      animation: moveInBottom 1s ease-out 0.45s;
+      animation-fill-mode: backwards;
     }
+  }
 
-    &-2 {
-        &--animated {
-            animation: moveInBottom 1s ease-out .45s; 
-            animation-fill-mode: backwards; 
-        }
+  &-2 {
+    &--animated {
+      animation: moveInBottom 1s ease-out 0.45s;
+      animation-fill-mode: backwards;
     }
-
+  }
 }
 
 .fab {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .fas {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .fa {
+  &-html5 {
+    color: #e34f26;
+  }
+  &-css3-alt {
+    color: #379ad6;
+  }
+  &-sass {
+    color: #cf649a;
+  }
+  &-js {
+    color: #f1e01c;
+  }
+  &-node {
+    color: #7fc728;
+  }
+  &-npm {
+    color: #c23c3c;
+  }
+  &-git-alt {
+    color: #e94f32;
+  }
+  &-bootstrap {
+    color: #533b78;
+  }
 
-    &-html5 {
-        color: #e34f26;
-    }
-    &-css3-alt {
-        color: #379ad6;
-    }
-    &-sass {
-        color: #cf649a;
-    }
-    &-js {
-        color: #f1e01c;
-    }
-    &-node {
-        color: #7fc728;
-    }
-    &-npm {
-        color: #c23c3c;
-    }
-    &-git-alt {
-        color: #e94f32;
-    }
-    &-bootstrap {
-        color: #533b78;
-    } 
+  &-react {
+    color: #61dbfb;
+  }
 
-    &-github-square {
-        color: $color-grey-light;
-    }
+  &-database {
+    color: #3fa037;
+  }
 
-    &-envelope-square {
-        color: $color-grey-light; 
-    }
+  &-github-square {
+    color: $color-grey-light;
+  }
+
+  &-envelope-square {
+    color: $color-grey-light;
+  }
 }
