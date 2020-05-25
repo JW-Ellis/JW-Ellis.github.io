@@ -200,14 +200,14 @@ a {
   width: 20rem; }
   .section-tech h1 {
     text-align: center;
-    letter-spacing: .3rem;
+    letter-spacing: 0.3rem;
     margin-bottom: 3rem; }
   .section-tech p {
     font-weight: bold; }
 
 .section-projects h1 {
   text-align: center;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   margin-bottom: 3rem; }
 
 #tech {
@@ -229,6 +229,9 @@ a {
 
 .project__picture--2 {
   background-image: url("../img/Pathfinder.png"); }
+
+.project__picture--3 {
+  background-image: url("../img/moviechat.png"); }
 
 .project__description h2 {
   color: #2e8ebb;
@@ -265,7 +268,7 @@ a {
     justify-content: space-around; }
 
 .row {
-  width: 65rem;
+  width: 86rem;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 4rem; }

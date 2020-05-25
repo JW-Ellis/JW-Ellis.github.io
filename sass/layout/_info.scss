@@ -1,117 +1,106 @@
 .section-info {
-    padding: 10rem 0;  
-    background-color: $color-grey-light;   
+  padding: 10rem 0;
+  background-color: $color-grey-light;
 
-    h1 {
-        text-align: left;
-        font-size: 3.5rem;
-        margin-bottom: 1rem;
-        font-family: $font-title; 
-    }
+  h1 {
+    text-align: left;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-family: $font-title;
+  }
 
-    p {
-        text-align: justify;
-        font-size: 1.5rem;
-        font-family: $font-content;
-        
-    }
-    
+  p {
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: $font-content;
+  }
 }
 
 #projectAnchor {
-    p {
-        font-weight: bold;
-        color: $color-dark;
+  p {
+    font-weight: bold;
+    color: $color-dark;
 
-        &:focus,
-        &:hover{
-        color: $color-primary;
-        
+    &:focus,
+    &:hover {
+      color: $color-primary;
     }
-    }
+  }
 }
 
 .section {
+  &-em {
+    color: #2e8ebb;
+  }
 
-    &-em{
-        color: #2e8ebb;
+  &-tech {
+    border-radius: 4px;
+    background-color: $color-grey-light;
+    width: 20rem;
+
+    h1 {
+      text-align: center;
+      letter-spacing: 0.3rem;
+      margin-bottom: 3rem;
     }
 
-    &-tech {
-        border-radius: 4px;
-        background-color: $color-grey-light; 
-        width: 20rem;
-
-        h1 {
-            text-align: center;
-            letter-spacing: .3rem;
-            margin-bottom: 3rem;
-        }
-
-        p {
-            font-weight: bold;
-        }
+    p {
+      font-weight: bold;
     }
+  }
 
-    &-projects {
-
-        h1 {
-            text-align: center;
-            letter-spacing: .3rem;
-            margin-bottom: 3rem;
-        }
-
-        
+  &-projects {
+    h1 {
+      text-align: center;
+      letter-spacing: 0.3rem;
+      margin-bottom: 3rem;
     }
-    
+  }
 }
 
 #tech {
-    position: relative;
-    left: 7rem;
-   // bottom: 1rem;
-    margin-right: 1rem;
+  position: relative;
+  left: 7rem;
+  // bottom: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+
+  p {
     text-align: center;
-
-    p{
-        text-align: center;
-    }
+  }
 }
-
-
 
 .project {
+  &__picture {
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    border-radius: 4px;
+    background-size: cover;
+    height: 10rem;
+  }
 
-    &__picture {
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-        border-radius: 4px;
-        background-size: cover;
-        height: 10rem;
+  &__picture--1 {
+    background-image: url("../img/Setlist.png");
+  }
+
+  &__picture--2 {
+    background-image: url("../img/Pathfinder.png");
+  }
+
+  &__picture--3 {
+    background-image: url("../img/moviechat.png");
+  }
+
+  &__description {
+    h2 {
+      color: $color-primary;
+      text-align: center;
+      font-size: 2.5rem;
     }
 
-    &__picture--1{
-        background-image: url("../img/Setlist.png");
+    p {
+      text-align: left;
+      font-size: 1.3rem;
+      padding: 1rem;
     }
-
-    &__picture--2{
-        background-image: url("../img/Pathfinder.png");
-    }
-
-    &__description{
-        h2 {
-            color: $color-primary;
-            text-align: center;
-            font-size: 2.5rem;
-        }
-
-        p {
-            text-align: left;
-            font-size: 1.3rem;
-            padding: 1rem;
-        }
-    }
+  }
 }
-
-
-
-
