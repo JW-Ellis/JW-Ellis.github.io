@@ -68,3 +68,44 @@
     width: calc((100% - 4 * #{$gutter-horizontal}) / 4.5);
   }
 }
+
+.icon {
+  width: $grid-width;
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+
+    @include respond(tab-port) {
+      margin-bottom: $gutter-vertical-small;
+    }
+  }
+
+  @include respond(tab-port) {
+    max-width: 50rem;
+    padding: 0 3rem;
+  }
+
+  @include clearfix;
+
+  [class^="col-"] {
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: $gutter-vertical-small;
+      }
+    }
+
+    @include respond(tab-port) {
+      width: 14% !important;
+    }
+  }
+
+  .icon-1-of-5 {
+    width: calc((100% - 4 * #{$gutter-horizontal}) / 4.5);
+  }
+}
