@@ -89,6 +89,10 @@
     background-image: url("../img/moviechat.png");
   }
 
+  &__picture--4 {
+    background-image: url("../img/hero.png");
+  }
+
   &__description {
     h2 {
       color: $color-primary;

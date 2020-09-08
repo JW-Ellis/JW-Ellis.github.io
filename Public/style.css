@@ -239,6 +239,9 @@ a {
 .project__picture--3 {
   background-image: url("../img/moviechat.png"); }
 
+.project__picture--4 {
+  background-image: url("../img/hero.png"); }
+
 .project__description h2 {
   color: #2e8ebb;
   text-align: center;
