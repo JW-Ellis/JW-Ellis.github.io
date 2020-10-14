@@ -4,7 +4,7 @@
   "description": "Portfolio homepage ",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss public/style.css -w", 
+    "compile:sass": "node-sass sass/main.scss public/style.css -w",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
