@@ -95,13 +95,18 @@ html {
   width: 75%;
   filter: drop-shadow(3px 8px 5px #0d0d0d);
   background: #f7f7f7;
-  transition-duration: .15s; }
+  transition-duration: 0.15s; }
   .container__project:hover {
     transform: translate(0.2rem, -0.2rem); }
 
 a {
   text-decoration: none;
   color: black; }
+
+#rectangle {
+  width: 10rem;
+  height: 1.3rem;
+  background: red; }
 
 .mountain {
   position: relative;
