@@ -137,15 +137,17 @@
 
 .projects {
   background-color: $color-grey;
+  padding: 8rem 0rem;
 }
 
 .projectRow {
   display: flex;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 
   .projectImage {
     width: 50%;
+    padding-right: 7rem;
     img {
       width: 100%;
     }
@@ -157,6 +159,59 @@
 
     .textContent {
       padding: 8rem 0rem 0rem 7rem;
+
+      #rectangle {
+        position: relative;
+        left: -1rem;
+        top: 4rem;
+      }
+
+      h1 {
+        position: relative;
+        color: white;
+        font-weight: 900;
+        font-size: 4rem;
+        letter-spacing: 0.4rem;
+      }
+      p {
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 100;
+        letter-spacing: 0.15rem;
+        line-height: 2.6rem;
+        padding-top: 1.2rem;
+        padding-bottom: 2rem;
+      }
+      a {
+        color: red;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 0.3rem;
+      }
+    }
+  }
+}
+
+.projectRowEven {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+
+  .projectImage {
+    width: 50%;
+    padding-left: 7rem;
+    img {
+      width: 100%;
+    }
+  }
+
+  .projectText {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+
+    .textContent {
+      padding-top: 8rem;
 
       #rectangle {
         position: relative;

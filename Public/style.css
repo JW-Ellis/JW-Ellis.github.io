@@ -285,14 +285,16 @@ a {
     margin-top: -25px; }
 
 .projects {
-  background-color: #181818; }
+  background-color: #181818;
+  padding: 8rem 0rem; }
 
 .projectRow {
   display: flex;
-  width: 60%;
+  width: 70%;
   margin: 0 auto; }
   .projectRow .projectImage {
-    width: 50%; }
+    width: 50%;
+    padding-right: 7rem; }
     .projectRow .projectImage img {
       width: 100%; }
   .projectRow .projectText {
@@ -319,6 +321,45 @@ a {
         padding-top: 1.2rem;
         padding-bottom: 2rem; }
       .projectRow .projectText .textContent a {
+        color: red;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 0.3rem; }
+
+.projectRowEven {
+  display: flex;
+  width: 70%;
+  margin: 0 auto; }
+  .projectRowEven .projectImage {
+    width: 50%;
+    padding-left: 7rem; }
+    .projectRowEven .projectImage img {
+      width: 100%; }
+  .projectRowEven .projectText {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%; }
+    .projectRowEven .projectText .textContent {
+      padding-top: 8rem; }
+      .projectRowEven .projectText .textContent #rectangle {
+        position: relative;
+        left: -1rem;
+        top: 4rem; }
+      .projectRowEven .projectText .textContent h1 {
+        position: relative;
+        color: white;
+        font-weight: 900;
+        font-size: 4rem;
+        letter-spacing: 0.4rem; }
+      .projectRowEven .projectText .textContent p {
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 100;
+        letter-spacing: 0.15rem;
+        line-height: 2.6rem;
+        padding-top: 1.2rem;
+        padding-bottom: 2rem; }
+      .projectRowEven .projectText .textContent a {
         color: red;
         font-size: 2rem;
         text-transform: uppercase;
