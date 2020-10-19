@@ -26,39 +26,6 @@
 }
 
 .fa {
-  &-html5 {
-    color: #e34f26;
-  }
-  &-css3-alt {
-    color: #379ad6;
-  }
-  &-sass {
-    color: #cf649a;
-  }
-  &-js {
-    color: #f1e01c;
-  }
-  &-node {
-    color: #7fc728;
-  }
-  &-npm {
-    color: #c23c3c;
-  }
-  &-git-alt {
-    color: #e94f32;
-  }
-  &-bootstrap {
-    color: #533b78;
-  }
-
-  &-react {
-    color: #61dbfb;
-  }
-
-  &-database {
-    color: #3fa037;
-  }
-
   &-github-square {
     color: $color-grey-light;
   }
@@ -67,9 +34,3 @@
     color: $color-grey-light;
   }
 }
-
-/* .icon {
-  &__bootstrap {
-    background-image: url("../img/Icons/BootStrap.png");
-  }
-} */

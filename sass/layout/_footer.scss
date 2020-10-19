@@ -1,31 +1,29 @@
 .footer {
-    position: relative;
-    height: 14rem;
-    background: black;
+  position: relative;
+  height: 14rem;
+  background: black;
 
-    h2 {
-        font-size: 2rem;
-        letter-spacing: .2rem;
-        padding: 1rem;
-        font-family: $font-title;
-        text-transform: uppercase;
-        color: $color-grey-light;
-        text-align: center;
-    }
+  h2 {
+    font-size: 2.7rem;
+    letter-spacing: 0.2rem;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: $color-grey-light;
+    text-align: center;
+  }
 }
 
 .contact {
-    position: absolute; 
-    margin: auto; 
-    left: 50%; 
-    width: 10%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  width: 10%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
 
-    &-icon {
+  &-icon {
     display: flex;
     justify-content: space-around;
-         
-    }
-    
+  }
 }

@@ -1,6 +1,6 @@
 .introduction {
   display: flex;
-  width: 66%;
+  width: 68%;
   margin: 0 auto;
 
   .introImage {
@@ -81,6 +81,9 @@
       z-index: 1;
       color: white;
     }
+    .introduction {
+      width: 90%;
+    }
   }
 
   @media (min-width: 480px) and (max-width: 1200px) {
@@ -88,6 +91,10 @@
       top: 24rem;
       font-size: 3rem;
       left: 17rem;
+    }
+
+    .introduction {
+      width: 90%;
     }
   }
 }
@@ -150,6 +157,8 @@
     padding-right: 7rem;
     img {
       width: 100%;
+      border-radius: 4px;
+      filter: drop-shadow(3px 8px 5px $color-black);
     }
   }
 
@@ -189,6 +198,9 @@
         font-weight: 100;
         letter-spacing: 0.3rem;
       }
+      a:hover {
+        color: white;
+      }
     }
   }
 }
@@ -203,6 +215,8 @@
     padding-left: 7rem;
     img {
       width: 100%;
+      border-radius: 4px;
+      filter: drop-shadow(3px 8px 5px $color-black);
     }
   }
 
@@ -242,6 +256,9 @@
         font-weight: 100;
         letter-spacing: 0.3rem;
       }
+      a:hover {
+        color: white;
+      }
     }
   }
 }
@@ -250,109 +267,9 @@
   padding-top: 4rem;
   background-color: $color-grey;
 
-  /* h1 {
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-    font-family: $font-title;
-  } */
-
   p {
     text-align: justify;
     font-size: 1.5rem;
     font-family: $font-content;
-  }
-}
-
-#projectAnchor {
-  p {
-    font-weight: bold;
-    color: $color-dark;
-
-    &:focus,
-    &:hover {
-      color: $color-primary;
-    }
-  }
-}
-
-.section {
-  &-em {
-    color: #2e8ebb;
-  }
-
-  &-tech {
-    border-radius: 4px;
-    background-color: $color-grey-light;
-    width: 20rem;
-
-    h1 {
-      text-align: center;
-      letter-spacing: 0.3rem;
-      margin-bottom: 3rem;
-    }
-
-    p {
-      font-weight: bold;
-    }
-  }
-
-  &-projects {
-    h1 {
-      text-align: center;
-      letter-spacing: 0.3rem;
-      margin-bottom: 3rem;
-    }
-  }
-}
-
-#tech {
-  position: relative;
-  left: 7rem;
-  margin-right: 1rem;
-  text-align: center;
-
-  p {
-    text-align: center;
-  }
-}
-
-.project {
-  &__picture {
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-    border-radius: 4px;
-    background-size: cover;
-    height: 10rem;
-  }
-
-  &__picture--1 {
-    background-image: url("../img/Setlist.png");
-  }
-
-  &__picture--2 {
-    background-image: url("../img/Pathfinder.png");
-  }
-
-  &__picture--3 {
-    background-image: url("../img/moviechat.png");
-  }
-
-  &__picture--4 {
-    background-image: url("../img/hero.png");
-  }
-
-  &__description {
-    h2 {
-      color: $color-primary;
-      text-align: center;
-      font-size: 2.5rem;
-    }
-
-    p {
-      text-align: left;
-      font-size: 1.3rem;
-      padding: 1rem;
-    }
   }
 }

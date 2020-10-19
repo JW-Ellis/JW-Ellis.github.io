@@ -50,60 +50,29 @@ html {
 .fas {
   font-size: 4rem; }
 
-.fa-html5 {
-  color: #e34f26; }
-
-.fa-css3-alt {
-  color: #379ad6; }
-
-.fa-sass {
-  color: #cf649a; }
-
-.fa-js {
-  color: #f1e01c; }
-
-.fa-node {
-  color: #7fc728; }
-
-.fa-npm {
-  color: #c23c3c; }
-
-.fa-git-alt {
-  color: #e94f32; }
-
-.fa-bootstrap {
-  color: #533b78; }
-
-.fa-react {
-  color: #61dbfb; }
-
-.fa-database {
-  color: #3fa037; }
-
 .fa-github-square {
   color: #f7f7f7; }
 
 .fa-envelope-square {
   color: #f7f7f7; }
 
-/* .icon {
-  &__bootstrap {
-    background-image: url("../img/Icons/BootStrap.png");
+/* .container {
+  &__project {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    height: 30rem;
+    width: 75%;
+    filter: drop-shadow(3px 8px 5px $color-black);
+    background: $color-grey-light;
+    transition-duration: 0.15s;
+
+    &:hover {
+      transform: translate(0.2rem, -0.2rem);
+    }
   }
 } */
-.container__project {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 4px;
-  height: 30rem;
-  width: 75%;
-  filter: drop-shadow(3px 8px 5px #0d0d0d);
-  background: #f7f7f7;
-  transition-duration: 0.15s; }
-  .container__project:hover {
-    transform: translate(0.2rem, -0.2rem); }
-
 a {
   text-decoration: none;
   color: black; }
@@ -185,7 +154,7 @@ a {
 
 .introduction {
   display: flex;
-  width: 66%;
+  width: 68%;
   margin: 0 auto; }
   .introduction .introImage {
     width: 50%; }
@@ -240,12 +209,16 @@ a {
         position: absolute;
         top: 24rem;
         z-index: 1;
-        color: white; } }
+        color: white; }
+      .introduction .introduction {
+        width: 90%; } }
   @media (min-width: 480px) and (max-width: 1200px) {
     .introduction h1 {
       top: 24rem;
       font-size: 3rem;
-      left: 17rem; } }
+      left: 17rem; }
+    .introduction .introduction {
+      width: 90%; } }
 
 .technology {
   background-color: #0d0d0d; }
@@ -296,7 +269,9 @@ a {
     width: 50%;
     padding-right: 7rem; }
     .projectRow .projectImage img {
-      width: 100%; }
+      width: 100%;
+      border-radius: 4px;
+      filter: drop-shadow(3px 8px 5px #0d0d0d); }
   .projectRow .projectText {
     font-family: Arial, Helvetica, sans-serif;
     width: 50%; }
@@ -326,6 +301,8 @@ a {
         text-transform: uppercase;
         font-weight: 100;
         letter-spacing: 0.3rem; }
+      .projectRow .projectText .textContent a:hover {
+        color: white; }
 
 .projectRowEven {
   display: flex;
@@ -335,7 +312,9 @@ a {
     width: 50%;
     padding-left: 7rem; }
     .projectRowEven .projectImage img {
-      width: 100%; }
+      width: 100%;
+      border-radius: 4px;
+      filter: drop-shadow(3px 8px 5px #0d0d0d); }
   .projectRowEven .projectText {
     font-family: Arial, Helvetica, sans-serif;
     width: 50%; }
@@ -365,92 +344,26 @@ a {
         text-transform: uppercase;
         font-weight: 100;
         letter-spacing: 0.3rem; }
+      .projectRowEven .projectText .textContent a:hover {
+        color: white; }
 
 .section-info {
   padding-top: 4rem;
-  background-color: #181818;
-  /* h1 {
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-    font-family: $font-title;
-  } */ }
+  background-color: #181818; }
   .section-info p {
     text-align: justify;
     font-size: 1.5rem;
     font-family: "Lato", sans-serif; }
-
-#projectAnchor p {
-  font-weight: bold;
-  color: #102b3f; }
-  #projectAnchor p:focus, #projectAnchor p:hover {
-    color: #2e8ebb; }
-
-.section-em {
-  color: #2e8ebb; }
-
-.section-tech {
-  border-radius: 4px;
-  background-color: #f7f7f7;
-  width: 20rem; }
-  .section-tech h1 {
-    text-align: center;
-    letter-spacing: 0.3rem;
-    margin-bottom: 3rem; }
-  .section-tech p {
-    font-weight: bold; }
-
-.section-projects h1 {
-  text-align: center;
-  letter-spacing: 0.3rem;
-  margin-bottom: 3rem; }
-
-#tech {
-  position: relative;
-  left: 7rem;
-  margin-right: 1rem;
-  text-align: center; }
-  #tech p {
-    text-align: center; }
-
-.project__picture {
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-  border-radius: 4px;
-  background-size: cover;
-  height: 10rem; }
-
-.project__picture--1 {
-  background-image: url("../img/Setlist.png"); }
-
-.project__picture--2 {
-  background-image: url("../img/Pathfinder.png"); }
-
-.project__picture--3 {
-  background-image: url("../img/moviechat.png"); }
-
-.project__picture--4 {
-  background-image: url("../img/hero.png"); }
-
-.project__description h2 {
-  color: #2e8ebb;
-  text-align: center;
-  font-size: 2.5rem; }
-
-.project__description p {
-  text-align: left;
-  font-size: 1.3rem;
-  padding: 1rem; }
 
 .footer {
   position: relative;
   height: 14rem;
   background: black; }
   .footer h2 {
-    font-size: 2rem;
-    letter-spacing: .2rem;
-    padding: 1rem;
-    font-family: "Libre Baskerville", serif;
+    font-size: 2.7rem;
+    letter-spacing: 0.2rem;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: #f7f7f7;
     text-align: center; }
