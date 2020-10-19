@@ -200,12 +200,13 @@ a {
       width: 70%;
       top: 22%; }
     .introduction .introText .textContain {
+      font-family: Arial, Helvetica, sans-serif;
       display: flex;
       flex-direction: column;
       padding-top: 8rem; }
       .introduction .introText .textContain .anchor {
-        font-size: 2rem;
-        padding-top: 1rem; }
+        font-size: 1.7rem;
+        padding-top: 2rem; }
       .introduction .introText .textContain a {
         color: red; }
   .introduction .photo {
@@ -220,6 +221,8 @@ a {
       top: 56%;
       left: 4%; }
   .introduction .phototext {
+    font-family: "Arial";
+    font-weight: 800;
     position: absolute;
     text-transform: uppercase;
     font-size: 3vw;
@@ -250,25 +253,77 @@ a {
 .technology-content {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  width: 60%;
+  margin: 0 auto; }
 
 .tech-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.7rem;
+  font-weight: 900;
+  line-height: 1.2;
   text-align: center;
-  color: red; }
+  margin-top: 5rem;
+  color: white; }
 
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1rem; }
+  grid-gap: 4rem;
+  margin-bottom: 5rem; }
   .tech-grid__img {
     width: 100%;
     height: 100%;
     object-fit: cover; }
   .tech-grid figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
     color: red;
     text-align: center;
     font-size: 2rem;
     margin-top: -25px; }
+
+.projects {
+  background-color: #181818; }
+
+.projectRow {
+  display: flex;
+  width: 60%;
+  margin: 0 auto; }
+  .projectRow .projectImage {
+    width: 50%; }
+    .projectRow .projectImage img {
+      width: 100%; }
+  .projectRow .projectText {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%; }
+    .projectRow .projectText .textContent {
+      padding: 8rem 0rem 0rem 7rem; }
+      .projectRow .projectText .textContent #rectangle {
+        position: relative;
+        left: -1rem;
+        top: 4rem; }
+      .projectRow .projectText .textContent h1 {
+        position: relative;
+        color: white;
+        font-weight: 900;
+        font-size: 4rem;
+        letter-spacing: 0.4rem; }
+      .projectRow .projectText .textContent p {
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 100;
+        letter-spacing: 0.15rem;
+        line-height: 2.6rem;
+        padding-top: 1.2rem;
+        padding-bottom: 2rem; }
+      .projectRow .projectText .textContent a {
+        color: red;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 0.3rem; }
 
 .section-info {
   padding-top: 4rem;
